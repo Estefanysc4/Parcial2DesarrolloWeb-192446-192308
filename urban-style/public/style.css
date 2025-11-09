@@ -1,0 +1,64 @@
+/* ===== Estilos globales Urban Style ===== */
+
+body {
+  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  color: #222;
+}
+
+.navbar {
+  background-color: #212529 !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+footer {
+  font-size: 0.9rem;
+  background-color: #212529;
+  color: white;
+}
+
+.card {
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.btn-dark {
+  background-color: #000 !important;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #444 !important;
+}
+
+/* LoginView layout */
+.container {
+  background-color: transparent;
+}
+
+/* Sidebar */
+.bg-light {
+  background-color: #f0f0f0 !important;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link.router-link-exact-active {
+  font-weight: bold;
+  color: #0d6efd;
+}
